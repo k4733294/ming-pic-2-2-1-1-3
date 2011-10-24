@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+	<list>
+        <pdf>
+		    <title>Aperture</title>
+			<link>http://go.mobfarm.eu/pdf/Aperture.pdf</link>
+			<cover>http://go.mobfarm.eu/pdf/Aperture.png</cover>
+		</pdf>
+        <pdf>
+            <title>MacBook Air</title>
+			<link>http://go.mobfarm.eu/pdf/MacBookAir.pdf</link>
+			<cover>http://go.mobfarm.eu/pdf/MacBookAir.png</cover>
+		</pdf>
+      
+	</list>
+</response>

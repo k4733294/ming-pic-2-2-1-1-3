@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/MFAudioPlayerViewProtocol.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/MFAudioPlayerViewProtocol</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>MFAudioPlayerViewProtocol.h</DeclaredIn>
+			
+			<NodeRef refid="6"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MFAudioPlayerViewProtocol/audioPlayerViewInstance</TokenIdentifier>
+			<Abstract>This method will be called to provide a view instance to add to the overlay.</Abstract>
+			<DeclaredIn>MFAudioPlayerViewProtocol.h</DeclaredIn>			
+			
+			<Declaration>+ (UIView *)audioPlayerViewInstance</Declaration>
+			
+			
+			<Anchor>//api/name/audioPlayerViewInstance</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MFAudioPlayerViewProtocol/setAudioProvider:</TokenIdentifier>
+			<Abstract>This method will be called to give a chance to store the refernce to the provider
+that will notify the view about the playback. It is recommended to assign it, not retain to
+avoid circular retention between provider and review.</Abstract>
+			<DeclaredIn>MFAudioPlayerViewProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)setAudioProvider:(id&lt;MFAudioProvider&gt;)provider</Declaration>
+			
+			
+			<Anchor>//api/name/setAudioProvider:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/MFAudioPlayerViewProtocol/audioProviderDidStart:</TokenIdentifier>
+			<Abstract>Playback and status event methods.</Abstract>
+			<DeclaredIn>MFAudioPlayerViewProtocol.h</DeclaredIn>			
+			
+			<Declaration>- (void)audioProviderDidStart:(id&lt;MFAudioProvider&gt;)mfeap</Declaration>
+			
+			
+			<Anchor>//api/name/audioProviderDidStart:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>
